@@ -1,1 +1,5 @@
-wadファイルと音声ファイルは容量の都合上Releaseにおいています。
+ここで見れるのはコードとライセンス表記のみです。
+
+wadファイルと音声ファイルが付属しているファイルをダウンロードする場合はReleaseからお願いしまず。
+↓
+https://github.com/tsubaki31415/DOOM-IN-MT5/releases/tag/v1.0

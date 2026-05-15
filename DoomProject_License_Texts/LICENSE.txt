@@ -1,0 +1,78 @@
+DoomBridge MT5 - License Notice
+
+This package is a MetaTrader 5 DOOM port experiment.
+
+It contains or may contain components derived from, built with, or distributed
+alongside the following projects:
+
+1. PureDOOM
+
+PureDOOM is used as the DOOM engine component.
+
+PureDOOM is licensed under the GNU General Public License version 2.0.
+The distributed DoomBridge.dll binary includes PureDOOM-derived code because
+PureDOOM.h is compiled into the DLL.
+
+Accordingly, when DoomBridge.dll is distributed, the corresponding source code
+for the DLL is provided with this package. This includes, as applicable:
+
+  - DoomBridge.c
+  - PureDOOM.h
+  - PureDOOM_SfxHooked.h
+  - patch_puredoom_sfx.py
+  - Makefile
+  - build instructions
+
+See:
+  COPYING.GPL-2.0.txt
+
+PureDOOM project:
+  https://github.com/Daivuk/PureDOOM
+
+
+2. Freedoom
+
+Freedoom is used as the freely redistributable game data set.
+
+This package may include:
+  - freedoom2.wad
+  - WAV sound effects extracted from Freedoom WAD data
+
+Freedoom is licensed under the 3-Clause BSD License.
+
+See:
+  COPYING.FREEDOOM-BSD-3-CLAUSE.txt
+
+Freedoom project:
+  https://github.com/freedoom/freedoom
+  https://freedoom.github.io/
+
+
+3. Commercial DOOM IWAD files
+
+Commercial DOOM IWAD files such as doom.wad, doom2.wad, plutonia.wad,
+and tnt.wad are not included in this package.
+
+Users who want to use commercial DOOM IWAD files must provide their own
+legally obtained copies. This project does not grant any rights to use,
+copy, modify, or distribute commercial DOOM game data.
+
+
+4. Project source code
+
+Unless stated otherwise in individual files, the DoomBridge DLL source code
+and related build scripts are distributed under the GNU General Public License
+version 2.0, because they are intended to be built together with PureDOOM.
+
+The MQL5 Expert Advisor source is distributed together with this project for
+transparency and reproducibility. If you redistribute this package, keep this
+license notice and the accompanying license texts intact.
+
+
+5. No warranty
+
+This software, game data, sound files, scripts, and accompanying materials are
+provided "as is", without warranty of any kind. Use at your own risk.
+
+This project is not affiliated with id Software, Bethesda, ZeniMax, MetaQuotes,
+the PureDOOM project, or the Freedoom project.
